@@ -1,0 +1,6 @@
+Place smartctl.exe from smartmontools here for full SMART disk health data.
+Download: https://www.smartmontools.org/wiki/Download
+
+Without smartctl.exe, the script still collects basic WMI-based SMART
+pass/fail prediction, but you won't get per-attribute raw values
+(reallocated sectors, spin retry count, seek error rate, etc.)
